@@ -13,10 +13,15 @@ def first_challenge
     }
   }
 
-  #your code here
-
-
-  #remember to return your newly altered contacts hash!
+  contacts.each do |person, data|
+    data.each do |key, value|
+      value.each do |item|
+        if item == "strawberry"
+          value.
+      end
+    end
+  end
+  
   contacts
 end
 
