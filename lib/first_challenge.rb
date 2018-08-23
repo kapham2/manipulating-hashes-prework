@@ -17,7 +17,8 @@ def first_challenge
     data.each do |key, value|
       value.each do |item|
         if item == "strawberry"
-          value.
+          value.delete(item)
+        end
       end
     end
   end
